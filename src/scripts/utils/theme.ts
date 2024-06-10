@@ -579,7 +579,6 @@ export default class Theme {
 
             if (
                 Settings.CourseIconFavicons.value !== "disabled" &&
-                img == bigCourseIcon &&
                 !document.querySelector("head > link[rel='icon'][type='image/svg+xml']")
             ) {
                 document.querySelectorAll("link[rel='shortcut icon']").forEach(el => el.remove());
